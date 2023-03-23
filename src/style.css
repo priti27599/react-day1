@@ -1,37 +1,30 @@
-.main {
-  border: none;
-  border-radius: 5px;
-  padding: 15px;
-  margin: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgb(140, 249, 249);
+img {
+  height: 220px;
+  border-radius: 50%;
 }
-h1 {
-  color: rgb(40, 39, 39);
+h3 {
+  font-size: 27px;
 }
 p {
-  color: rgb(44, 43, 43);
+  font-weight: 100;
+  color: gray;
 }
-.inputbox {
+
+h2 {
+  font-size: 30px;
+}
+
+ul {
+  margin-left: -40px;
   display: flex;
-  padding: 20px;
 }
-input {
-  margin-right: 8px;
-  padding: 9px;
+
+ul li {
+  list-style: none;
+  margin: 10px;
   border: none;
-  border-radius: 5px;
-}
-input::placeholder {
-  color: rgb(194, 196, 197);
-}
-button {
-  background-color: red;
+  padding: 5px;
+  background-color: rgb(3, 202, 202);
   color: #fff;
-  border: none;
   border-radius: 5px;
-  padding: 9px 93px;
-  font-size: 12px;
 }
